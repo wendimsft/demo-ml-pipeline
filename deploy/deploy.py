@@ -16,14 +16,13 @@ new_cluster_config = """
 }
 """
 # Existing cluster ID where integration test will be executed
-existing_cluster_id = '0804-220509-stead130'
+existing_cluster_id = '1015-023157-y9gttffq'
 # Path to the notebook with the integration test
 notebook_path = '/test/unittest_model'
-repo_path = '/Repos/michael.shtelma@databricks.com/databricks_ml_demo'
+repo_path = '/Repos/t-wonwuakpa@microsoft.com/databricks_ml_demo'
 
-
-repos_path_prefix='/Repos/michael.shtelma@databricks.com/databricks_ml_demo'
-git_url = 'https://github.com/mshtelma/databricks_ml_demo'
+repos_path_prefix='/Repos/t-wonwuakpa@microsoft.com/databricks_ml_demo'
+git_url = 'https://github.com/wendimsft/demo-ml-pipeline'
 provider = 'gitHub'
 branch = 'main'
 
